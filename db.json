@@ -1,0 +1,7 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "body": "typsdfsdficode" },
+    { "id": 2, "title": "json-dsfsdf", "body": "dfsdfsdf" },
+    { "id": 3, "title": "sdfsdf-server", "body": "sdfsdfsdghffg" }
+  ]
+}
