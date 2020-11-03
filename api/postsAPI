@@ -1,0 +1,14 @@
+import axios from 'axios'
+import apiURLs from "../constants/apiURLs";
+
+export const fetchPosts = ()=>{
+    return axios.get('http://localhost:4200/posts')
+}
+
+export const fetchSinglePost = (id)=>{
+    return axios({
+        method: "GET",
+        baseURL: apiURLs.BASE_DATA_URL.INDEX,
+        url: apiURLs.POSTS.createPath(id)
+    })
+}
